@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+.about_fundraising {
+    background: #010632;
+    width: 1440px;
+    height: 461px;
+}
+.title__h2 {
+    color: #FFF;
+    font-family: 'Istok Web', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+}
+.about_fundraising__text {
+    width: 414px;
+    height: 233px;
+    color: #FFF;
+    font-family: Jost;
+    font-size: 24px;
+    font-weight: 400;
+}
+.first_picture {
+    position: relative;
+    background-image: url(./img/Ukrainian-soilders-1.jpg);
+    background-repeat: no-repeat;
+    width: 365px;
+    height: 251px;
+    top: 32px;
+
+}
+.second_picture {
+    position: relative;
+    top: 161px;
+    background-image: url(./img/Ukrainian-soilders-2.jpg);
+    background-repeat: no-repeat;
+    width: 265px;
+    height: 203px;
+}
