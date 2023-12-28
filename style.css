@@ -5,10 +5,12 @@
 }
 
 .model{
+    display: flex;
+    position: relative;
     width: 1005px;
     height: 598px;
     border-radius: 21px;
-    background: white;
+    background-color: rgb(203, 199, 199);
 }
 
 .model p{
@@ -47,27 +49,41 @@
     border: none;
 }
 .gasoline{
+    margin-left: 55px;
+    margin-top: 38px;
 }
 
 .dagger{
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    width: 41px;
+    height: 42px;
+    right: 18px;
+    top: 6px;
+}
+
+.dagger::after{
+    content: "";
     top: 20px;
     left: 10px;
     cursor: pointer;
     position: absolute;
     width: 41px;
     height: 4px;
-    content: "";
     background-color: black;
     transform: rotate(45deg);
 } 
 
-/* .dagger ::after{
+.dagger::before{
+    content: "";
+    top: 20px;
+    left: 10px;
     cursor: pointer;
     position: absolute;
     width: 41px;
     height: 4px;
-    content: "";
     background-color: black;
-    transform: rotate(45deg);
-}  */
+    transform: rotate(-45deg);
+}  
 
