@@ -1,3 +1,4 @@
+@import 'animate.css';
 * {
     margin: 0;
     padding: 0;
@@ -9,8 +10,10 @@
 }
 .about_fundraising {
     background: #010632;
-    width: 1440px;
-    height: 461px;
+    padding: 100px 0;
+}
+.about_fundraising__text:hover {
+    color: #CCDA15;
 }
 .title__h2 {
     color: #FFF;
@@ -33,6 +36,7 @@
     width: 365px;
     height: 251px;
     top: 32px;
+    box-shadow: 150px 25px 125px 100px blue;
 
 }
 .second_picture {
@@ -42,4 +46,15 @@
     background-repeat: no-repeat;
     width: 265px;
     height: 203px;
+}
+@media screen and (max-width: 575px) {
+    body {
+        background-color: #CCDA15;
+    }
+    .about_fundraising__text {
+        width: 530px;
+    }
+    .first_picture {
+        width: 250px;
+    }
 }
