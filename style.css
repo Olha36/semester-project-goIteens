@@ -31,8 +31,8 @@
 }
 .first_picture {
     position: relative;
-    background-image: url(./img/Ukrainian-soilders-1.jpg);
-    background-repeat: no-repeat;
+    /* background-image: url(./img/Ukrainian-soilders-1.jpg);
+    background-repeat: no-repeat; */
     width: 365px;
     height: 251px;
     top: 32px;
@@ -42,8 +42,8 @@
 .second_picture {
     position: relative;
     top: 161px;
-    background-image: url(./img/Ukrainian-soilders-2.jpg);
-    background-repeat: no-repeat;
+    /* background-image: url(./img/Ukrainian-soilders-2.jpg);
+    background-repeat: no-repeat; */
     width: 265px;
     height: 203px;
 }
@@ -51,10 +51,20 @@
     body {
         background-color: #CCDA15;
     }
+    .about_fundraising {
+        padding: 100px 0;
+    }
     .about_fundraising__text {
         width: 530px;
+        /* padding-bottom: 100px; */
     }
     .first_picture {
         width: 250px;
+        top: 235px;
+        right: 360px;
+    }
+    .second_picture {
+        top: 500px;
+        right: 400px;
     }
 }
