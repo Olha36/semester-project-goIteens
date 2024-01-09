@@ -18,6 +18,22 @@
     background-color: rgb(203, 199, 199);
 }
 
+.gasoline{
+    animation-duration: 1s;
+    animation-name: pinput;
+}
+
+@keyframes pinput{
+  0%{
+    transform: scale(-0.5, 1);
+  }
+  50%{
+
+  }
+  100%{
+
+  }
+}
 
 .model p{
     margin-left: 53px;
@@ -28,6 +44,21 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+.model p{
+    animation-name: pmove;
+    animation-duration: 2s;
+}
+
+@keyframes pmove{
+    0%{
+        margin-top: 100%;
+
+    }
+    100%{
+        margin-top: 0%;
+    }
 }
 
 .model input{
@@ -59,6 +90,28 @@
     line-height: normal;
     border: none;
 }
+
+.support:hover{
+    animation: move 2s infinite linear;
+    animation-name: scalean;
+}
+
+@keyframes scalean{
+    0%{
+        transform: scale(1);
+    }
+    25%{
+        transform: scale(1.2);
+    }
+    50%{
+        transform: scale(1.4);
+    }
+    75%{
+        box-shadow: 0px 0px 45px blue;
+    }
+}
+
+
 .gasoline{
     margin-left: 55px;
     margin-top: 38px;
@@ -101,7 +154,14 @@
 @media screen and (max-width: 1200px){
     .adaptive{
         max-width: 990px;
+        height: 615px;
     }
+    /* .model_email,
+    .model_money,
+    .model_cardnum,
+    .model_pin{
+        margin-left: 17px;
+    } */
     .model_pin{
         display: block;
         max-width: 208px;
@@ -110,12 +170,15 @@
 @media screen and (max-width: 991px){
     .adaptive{
         max-width: 770px;
+        flex-direction: column;
     }
-    
+
     .gasoline{
         max-width: 105px;
         max-height: 126px;
         border-radius: 9px;
+        position: absolute;
+        top: 75%;
     }
     .support{
         max-width: 172px;
