@@ -9,7 +9,7 @@
     justify-content: space-evenly;
 }
 .about_fundraising {
-    background: #010632;
+    background-color: #010632;
     padding: 100px 0;
 }
 .about_fundraising__text:hover {
@@ -56,7 +56,6 @@
     }
     .about_fundraising__text {
         width: 530px;
-        /* padding-bottom: 100px; */
     }
     .first_picture {
         width: 250px;
