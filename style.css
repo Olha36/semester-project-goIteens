@@ -1,4 +1,4 @@
-body{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -8,8 +8,7 @@ body{
     justify-content: center;
     flex-wrap: wrap;
     background: #060D49;
-    flex-shrink: 0;
-    height: 740px;
+    padding-bottom: 19px;
 
 }
 .supportcards{
@@ -19,25 +18,27 @@ body{
 }
 .supportchild{
    background-color: #FFF;
-   width: 365px;
-    height: 596px;
+   width: 365px;  
    text-align: center;
    margin-right: 35px;
-
+   margin-bottom: 35px;
+   padding-bottom: 35px;
 }
 .supportchild2{
     background-color: #FFF;
     width: 365px;
-     height: 596px;
     text-align: center;
     margin-right: 35px;
+    margin-bottom: 35px;
+    padding-bottom: 35px;
+    
 
  }
  .supportchild3{
     background-color: #FFF;
     width: 365px;
-     height: 596px;
     text-align: center;
+    padding-bottom: 35px;
  }
 .support2{
     width: 753px;
