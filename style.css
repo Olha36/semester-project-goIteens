@@ -54,10 +54,10 @@
     .about_fundraising {
         padding: 100px 0;
     }
-    .about_fundraising__text {
+    /* .about_fundraising__text {
         width: 530px;
-    }
-    .first_picture {
+    } */
+    /* .first_picture {
         width: 250px;
         top: 235px;
         right: 360px;
@@ -65,5 +65,5 @@
     .second_picture {
         top: 500px;
         right: 400px;
-    }
+    } */
 }
