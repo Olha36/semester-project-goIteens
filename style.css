@@ -23,6 +23,30 @@
     animation-name: pinput;
 }
 
+.soldats{
+    background-color: blue;
+    height: 500px;
+}
+.img{
+    width: 615px;
+}
+.ZSU{
+    margin-left: 349px;
+}
+p{
+    margin-left: 187px;
+    width: 414px;
+}
+h1{
+    margin-left: 187px;
+}
+.container{
+    display: flex;
+}
+img:hover{
+    transform: scale(2);
+}
+
 @keyframes pinput{
   0%{
     transform: scale(-0.5, 1);
