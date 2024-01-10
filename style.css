@@ -1,27 +1,10 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+/* Ерік */
 
-.adaptive{
-    display: block;
-    width: 1200px;
-}
+/* Олег */
 
-.model{
-    display: flex;
-    position: relative;
-    width: 1005px;
-    height: 598px;
-    border-radius: 21px;
-    background-color: rgb(203, 199, 199);
-}
+/* Юра  */
 
-.gasoline{
-    animation-duration: 1s;
-    animation-name: pinput;
-}
+/* Oleh */
 
 .soldats{
     background-color: blue;
@@ -45,6 +28,40 @@ h1{
 }
 img:hover{
     transform: scale(2);
+}
+
+/* Настя */
+
+
+
+/* Даня Щербаков */
+
+
+
+/* Edward */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.adaptive{
+    display: block;
+    width: 1200px;
+}
+
+.model{
+    display: flex;
+    position: relative;
+    width: 1005px;
+    height: 598px;
+    border-radius: 21px;
+    background-color: rgb(203, 199, 199);
+}
+
+.gasoline{
+    animation-duration: 1s;
+    animation-name: pinput;
 }
 
 @keyframes pinput{
@@ -226,3 +243,8 @@ img:hover{
         max-width: 370px;
     }
 }
+
+/* Назар */
+/* Даня Іллясевич  */
+/* Ваня */
+
