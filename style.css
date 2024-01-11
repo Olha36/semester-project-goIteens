@@ -63,15 +63,20 @@ footer {
 .socialnetwork {
     padding: 137px 237px 0 420px;
     width: 265px;
-    height: 64px;
+    height: 40px;
+    display: flex;
 }
 
 .instagram_socialnetwork {
-    padding-right: 10px;
+    margin-right: 66px;
+    background: #FFB800;
+    background-size: 1px;
+    background-repeat: no-repeat;
+
 }
 
 .facebook_socialnetwork {
-    padding-right: 10px;
+    padding-right: 66px;
 }
 
 .trips {
@@ -83,4 +88,22 @@ footer {
     padding-left: 640px;
     font-size: 24px;
     font-weight: 400;
+}
+
+.blue {
+    color: #0075FF;
+    font-family: Istok Web;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.yellow {
+    color: #FFB800;
+    font-family: Istok Web;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.instagram_socialnetwork:hover {
+    transform: scale(1.2);
 }
