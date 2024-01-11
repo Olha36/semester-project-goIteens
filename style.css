@@ -29,36 +29,29 @@
     font-size: 24px;
     font-weight: 400;
 }
+.pictures {
+    flex-wrap: wrap;
+}
 .first_picture {
     position: relative;
-    /* background-image: url(./img/Ukrainian-soilders-1.jpg);
-    background-repeat: no-repeat; */
-    width: 365px;
-    height: 251px;
     top: 32px;
     box-shadow: 150px 25px 125px 100px blue;
-
 }
 .second_picture {
     position: relative;
-    top: 161px;
-    /* background-image: url(./img/Ukrainian-soilders-2.jpg);
-    background-repeat: no-repeat; */
-    width: 265px;
-    height: 203px;
+    top: 130px;
 }
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 1047px) {
     body {
         background-color: #CCDA15;
     }
     .about_fundraising {
-        padding: 100px 0;
+        padding-bottom: 130px;
     }
-    /* .about_fundraising__text {
+    .about_fundraising__text {
         width: 530px;
-    } */
+    }
     /* .first_picture {
-        width: 250px;
         top: 235px;
         right: 360px;
     }
@@ -66,4 +59,7 @@
         top: 500px;
         right: 400px;
     } */
+}
+@media screen and (max-width: 905px) {
+
 }
