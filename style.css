@@ -61,6 +61,10 @@ input {
    padding: 53px 0 0 53px;
 }
 
+.container_img:hover img {
+    transform: scale(1);
+}
+
 .support { 
     padding: 22px;
 }
@@ -77,6 +81,23 @@ input {
     font-weight: 400;
 }
 
+.join-button:hover {
+    display: inline-block;
+    margin: 0 0.5rem;
+    animation: rubberBand;
+    animation-duration: 2s;
+}
+
 .container-info {
     padding: 10px 0 0 50px;
+}
+
+.container_img:hover {
+    transform: scale(1.1);
+}
+
+.forms:hover {
+    display: inline-block;
+    animation: shakeX;
+    animation-duration: 2s;
 }
