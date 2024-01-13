@@ -101,3 +101,56 @@ input {
     animation: shakeX;
     animation-duration: 2s;
 }
+
+.forms :nth-child(4) {
+    display: none;
+}
+
+@media screen and (max-width: 1199px) {
+    .container {
+        max-width: 990px;
+    }
+    
+    .forms :nth-child(4) {
+        display: block;
+        max-width: 208px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .adaptive {
+        max-width: 770px;
+        flex-direction: column;
+    }
+
+    .container_img {
+        position: absolute;
+        max-width: 105px;
+        max-height: 126px;
+        border-radius: 9px;
+    }
+
+    .join-button {
+        max-width: 172px;
+        max-height: 48px;
+        border-radius: 15px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .adaptive{
+        max-width: 570px;
+    }
+
+    input {
+        max-width: 306px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .adaptive {
+        max-width: 350px;
+        height: auto;
+    }
+}
+
