@@ -7,8 +7,8 @@
 .container_modal {
     display: flex;
     margin: 0 auto;
-    width: 1005px;
-    height: 598px;
+    /* width: 1005px;
+    height: 598px; */
     border-radius: 15px;
     border: 1px solid black;
     background: #FFF;
@@ -123,12 +123,11 @@ input {
         flex-direction: column;
     }
 
-    .container_img {
-        position: absolute;
+    /* .container_img {
         max-width: 105px;
         max-height: 126px;
         border-radius: 9px;
-    }
+    } */
 
     .join-button {
         max-width: 172px;
@@ -137,13 +136,25 @@ input {
     }
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 768px) {
     .adaptive{
         max-width: 570px;
     }
 
     input {
         max-width: 306px;
+    }
+
+    .container_modal {
+        display: flex;
+        margin: 0 auto;
+        border-radius: 15px;
+        border: 1px solid black;
+        background: #FFF;
+        width: 90%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
 
