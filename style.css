@@ -6,6 +6,9 @@
 }
 .flex {
     display: flex;
+    flex-wrap: wrap;
+}
+.justify-content-evenly {
     justify-content: space-evenly;
 }
 .about_fundraising {
@@ -29,17 +32,22 @@
     font-size: 24px;
     font-weight: 400;
 }
-.pictures {
-    flex-wrap: wrap;
-}
 .first_picture {
     position: relative;
     top: 32px;
     box-shadow: 150px 25px 125px 100px blue;
+    transition: transform, 10s, ease-in-out;
+}
+.first_picture:hover {
+    transform: scale(1.35);
 }
 .second_picture {
     position: relative;
     top: 130px;
+    transition: transform, 10s, ease-in-out;
+}
+.second_picture:hover {
+    transform: scale(1.35);
 }
 @media screen and (max-width: 1047px) {
     body {
@@ -60,6 +68,11 @@
         right: 400px;
     } */
 }
-@media screen and (max-width: 905px) {
-
+@media screen and (max-width: 537px) {
+    .about_fundraising__text {
+        width: 300px;
+    }
+    .about_fundraising__text__span {
+        display: none;
+    }
 }
