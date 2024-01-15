@@ -6,9 +6,8 @@
 
 .container_modal {
     display: flex;
+    justify-content: space-evenly;
     margin: 0 auto;
-    /* width: 1005px;
-    height: 598px; */
     border-radius: 15px;
     border: 1px solid black;
     background: #FFF;
@@ -22,7 +21,7 @@
     height: 22px;
     background-color: black;
     transform: translate(508px, 4px) rotate(45deg);
-    left: 460px;
+    left: 860px;
 }
 
 .container_cross::after {
@@ -58,7 +57,7 @@ input {
 }
 
 .container_img {
-   padding: 53px 0 0 53px;
+   padding: 40px 0 25px 53px;
 }
 
 .container_img:hover img {
@@ -151,10 +150,15 @@ input {
         border-radius: 15px;
         border: 1px solid black;
         background: #FFF;
-        width: 90%;
+        width: 1006px;
+        flex-wrap: wrap;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    .container_cross {
+        left: 300px;
     }
 }
 
@@ -162,6 +166,10 @@ input {
     .adaptive {
         max-width: 350px;
         height: auto;
+    }
+
+    .container_cross {
+        display: none;
     }
 }
 
