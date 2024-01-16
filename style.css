@@ -4,8 +4,6 @@
 }
 
 footer {
-    width: 1440px;
-    height: 349px;
     background: #010632;
     flex-wrap: wrap;
 }
@@ -15,7 +13,8 @@ footer {
 }
 
 .h2 {
-    padding-left: 502px;
+    display: flex;
+    justify-content: center;
     color: white;
     font-family: 'Istok Web';
     font-size: 48px;
@@ -62,30 +61,25 @@ footer {
 }
 
 .socialnetwork {
-    padding: 137px 237px 0 420px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 137px 237px 0 800px;
     width: 265px;
     height: 40px;
     display: flex;
 }
 
 .instagram_socialnetwork {
-    margin-right: 66px;
-    background: #FFB800;
-    background-size: 1px;
     background-repeat: no-repeat;
 
 }
 
 .facebook_socialnetwork {
-    margin-right: 66px;
-    background: #FFB800;
-    background-size: 1px;
     background-repeat: no-repeat;
 }
 
 .twitter_socialnetwork {
-    background: #FFB800;
-    background-size: 1px;
     background-repeat: no-repeat;
 }
 
@@ -95,7 +89,7 @@ footer {
     color: #FFF;
     font-family: 'Jost', sans-serif;
     padding-bottom: 50px;
-    padding-left: 640px;
+    padding-left: 850px;
     font-size: 24px;
     font-weight: 400;
 }
@@ -116,6 +110,7 @@ footer {
 .yellow-circle {
     background-color: #FFB800;
     width: 65px;
+    margin-right: 34.96px;
     height: 65px;
     border-radius: 50%;
     display: flex;
