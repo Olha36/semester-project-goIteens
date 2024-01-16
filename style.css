@@ -30,6 +30,8 @@
     color: #FFF;
     font-family: Istok Web;
     font-size: 48px;
+    display: flex;
+    flex-wrap: wrap;
 }
 .img{
     padding-top: 26px;
