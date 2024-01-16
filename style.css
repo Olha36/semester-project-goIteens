@@ -1,0 +1,90 @@
+.fourth_section {
+  width: 100%;
+  padding: 21px 138px 56px;
+  width: 1440px;
+  height: 773px;
+  flex-shrink: 0;
+  background: #010632;
+  gap: 36px;
+  margin: 0 auto;
+}
+
+h2 {
+  padding: 0 330px 18px;
+  width: 780px;
+  color: #fff;
+  text-align: center;
+  font-family: Istok Web;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.img_wrapper {
+  padding: 0 138px 56px;
+  display: flex;
+  gap: 36px;
+}
+
+.left_item {
+  display: flex;
+  gap: 21px;
+  flex-direction: column;
+}
+
+.left_top {
+  display: flex;
+  gap: 36px;
+}
+
+.left_top_left {
+  width: 364px;
+  height: 264px;
+  flex-shrink: 0;
+  opacity: 0.5;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  gap: 21px;
+}
+
+.right_top {
+  display: flex;
+  gap: 21px;
+  flex-direction: column;
+}
+
+.right_top_right {
+  display: flex;
+  gap: 21px;
+  width: 364px;
+  height: 129px;
+  flex-shrink: 0;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.left_bottom {
+  display: flex;
+  gap: 36px;
+}
+
+.left_botton_left {
+  width: 264px;
+  height: 261px;
+  flex-shrink: 0;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.right_botton {
+  width: 465px;
+  height: 264px;
+  flex-shrink: 0;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.right_item {
+  width: 364px;
+  height: 549px;
+  flex-shrink: 0;
+  opacity: 0.5;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
