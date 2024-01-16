@@ -24,22 +24,6 @@
    margin-bottom: 35px;
    padding-bottom: 35px;
 }
-.supportchild2{
-    background-color: #FFF;
-    width: 365px;
-    text-align: center;
-    margin-right: 35px;
-    margin-bottom: 35px;
-    padding-bottom: 35px;
-    
-
- }
- .supportchild3{
-    background-color: #FFF;
-    width: 365px;
-    text-align: center;
-    padding-bottom: 35px;
- }
 .support2{
     width: 753px;
     /* margin-top: 40px; */
@@ -50,6 +34,7 @@
 .img{
     padding-top: 26px;
 }
+
 .supportchild button{
 text-align: center;
 }
