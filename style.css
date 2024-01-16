@@ -113,4 +113,13 @@ footer {
     font-size: 48px;
     font-weight: 700;
 }
+.yellow-circle {
+    background-color: #FFB800;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
