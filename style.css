@@ -4,9 +4,14 @@
 }
 
 footer {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit, 100px);
+    grid-template-rows: repeat(2, 100px);
     width: 1440px;
     height: 349px;
     background: #010632;
+    flex-wrap: wrap;
 }
 
 .policy {
@@ -16,7 +21,7 @@ footer {
 .h2 {
     padding-left: 502px;
     color: white;
-    font-family: 'Istok Web', sans-serif;
+    font-family: 'Istok Web';
     font-size: 48px;
     font-weight: 700;
 }
@@ -76,7 +81,16 @@ footer {
 }
 
 .facebook_socialnetwork {
-    padding-right: 66px;
+    margin-right: 66px;
+    background: #FFB800;
+    background-size: 1px;
+    background-repeat: no-repeat;
+}
+
+.twitter_socialnetwork {
+    background: #FFB800;
+    background-size: 1px;
+    background-repeat: no-repeat;
 }
 
 .trips {
@@ -107,3 +121,5 @@ footer {
 .instagram_socialnetwork:hover {
     transform: scale(1.2);
 }
+
+@media only screen and (max-width:1440px)
