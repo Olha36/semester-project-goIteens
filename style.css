@@ -4,10 +4,6 @@
 }
 
 footer {
-    display: grid;
-    grid-gap: 5px;
-    grid-template-columns: repeat(auto-fit, 100px);
-    grid-template-rows: repeat(2, 100px);
     width: 1440px;
     height: 349px;
     background: #010632;
@@ -118,8 +114,3 @@ footer {
     font-weight: 700;
 }
 
-.instagram_socialnetwork:hover {
-    transform: scale(1.2);
-}
-
-@media only screen and (max-width:1440px)
