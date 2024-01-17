@@ -13,7 +13,7 @@
 }
 .about_fundraising {
     background-color: #010632;
-    padding: 100px 0;
+    padding: 160px 0;
 }
 .about_fundraising__text:hover {
     color: #CCDA15;
@@ -50,27 +50,22 @@
     transform: scale(1.35);
 }
 @media screen and (max-width: 1047px) {
-    body {
-        background-color: #CCDA15;
-    }
-    .about_fundraising {
-        padding-bottom: 130px;
-    }
     .about_fundraising__text {
         width: 530px;
     }
-    /* .first_picture {
-        top: 235px;
-        right: 360px;
+}
+@media screen and (max-width: 745px) {
+    .about_fundraising {
+        flex-direction: column;
     }
     .second_picture {
-        top: 500px;
-        right: 400px;
-    } */
-}
+        left: 40%;
+    }
+}                                                              
 @media screen and (max-width: 537px) {
     .about_fundraising__text {
         width: 300px;
+        font-size: 20px;
     }
     .about_fundraising__text__span {
         display: none;
