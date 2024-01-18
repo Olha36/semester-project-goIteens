@@ -4,9 +4,6 @@
     padding: 0;
 }
 .supportforarmy{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
     background: #060D49;
     padding-bottom: 19px;
 
@@ -25,13 +22,11 @@
    padding-bottom: 35px;
 }
 .support2{
-    width: 753px;
-    /* margin-top: 40px; */
+  
     color: #FFF;
     font-family: Istok Web;
     font-size: 48px;
-    display: flex;
-    flex-wrap: wrap;
+  text-align: center;
 }
 .img{
     padding-top: 26px;
