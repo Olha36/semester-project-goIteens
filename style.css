@@ -4,8 +4,10 @@
 }
 
 footer {
+    display: flex;
     background: #010632;
     flex-wrap: wrap;
+    
 }
 
 .policy {
