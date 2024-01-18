@@ -1,46 +1,46 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-.supportforarmy{
-    background: #060D49;
-    padding-bottom: 19px;
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    .supportforarmy{
+        background: #060D49;
+        padding-bottom: 19px;
 
-}
-.supportcards{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-.supportchild{
-   background-color: #FFF;
-   width: 365px;  
-   text-align: center;
-   margin-right: 35px;
-   margin-bottom: 35px;
-   padding-bottom: 35px;
-}
-.support2{
-  
-    color: #FFF;
-    font-family: Istok Web;
-    font-size: 48px;
-  text-align: center;
-}
-.img{
-    padding-top: 26px;
-}
-.supportchild button{
-text-align: center;
-}
-.text{
-    color: #000;
-    font-family: Istok Web;
-    font-size: 48px;
-    font-style: normal;
-    line-height: normal;
-}
+    }
+    .supportcards{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .supportchild{
+    background-color: #FFF;
+    width: 365px;  
+    text-align: center;
+    margin-right: 35px;
+    margin-bottom: 35px;
+    padding-bottom: 35px;
+    }
+    .support2{
+    
+        color: #FFF;
+        font-family: Istok Web;
+        font-size: 48px;
+    text-align: center;
+    }
+    .img{
+        padding-top: 26px;
+    }
+    .supportchild button{
+    text-align: center;
+    }
+    .text{
+        color: #000;
+        font-family: Istok Web;
+        font-size: 48px;
+        font-style: normal;
+        line-height: normal;
+    }
 .text-1{
     color: #000;
     text-align: center;
