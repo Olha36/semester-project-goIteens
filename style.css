@@ -4,9 +4,7 @@
 }
 
 footer {
-    display: flex;
     background: #010632;
-    flex-wrap: wrap;
     
 }
 
@@ -25,6 +23,8 @@ footer {
 
 .container {
     display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .policy {
@@ -65,11 +65,7 @@ footer {
 .socialnetwork {
     display: flex;
     align-items: center;
-    justify-content: center;
-    padding: 137px 237px 0 800px;
-    width: 265px;
-    height: 40px;
-    display: flex;
+    
 }
 
 .instagram_socialnetwork {
@@ -86,12 +82,10 @@ footer {
 }
 
 .trips {
-    width: 159px;
-    height: 37px;
     color: #FFF;
     font-family: 'Jost', sans-serif;
     padding-bottom: 50px;
-    padding-left: 850px;
+    text-align: center;
     font-size: 24px;
     font-weight: 400;
 }
