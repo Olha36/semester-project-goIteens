@@ -44,6 +44,7 @@
 .second_picture {
     position: relative;
     top: 130px;
+    left: 37%;
     transition: transform, 10s, ease-in-out;
 }
 .second_picture:hover {
@@ -54,20 +55,41 @@
         width: 530px;
     }
 }
-@media screen and (max-width: 745px) {
+@media screen and (max-width: 767px) {
     .about_fundraising {
         flex-direction: column;
+        align-items: center;
+    }
+    .first_picture {
+        right: 100%;
+        top: -10px;
+        box-shadow: 150px 25px 90px 80px blue;
     }
     .second_picture {
         left: 40%;
+        top: 50px;
     }
 }                                                              
 @media screen and (max-width: 537px) {
+    .about_fundraising {
+        padding: 60px 0;
+    }
     .about_fundraising__text {
-        width: 300px;
-        font-size: 20px;
+        width: 195px;
+        font-size: 16px;
     }
     .about_fundraising__text__span {
         display: none;
+    }
+    .title__h2 {
+        font-size: 34px;
+    }
+    .first_picture {
+        top: -100px;
+        box-shadow: 90px 55px 45px 60px blue;
+        right: 50%;
+    }
+    .second_picture {
+        top: -80px;
     }
 }
