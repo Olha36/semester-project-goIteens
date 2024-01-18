@@ -65,7 +65,12 @@
         </div>
       </div>
       <div class="container_img">
-          <img src="./image/autogun.jpg" alt="">
+        
+        <picture>
+          <source srcset="./image/autogun.jpg 1x, ./image/autogun.jpg 1x" media="(min-width: 1143px)" alt="autogun">
+          <source srcset="./image/autogun.jpg 1x, ./image/autogun2x.jpg 2x" media="(min-width: 700px)" alt="autogun">
+          <img src="./image/autogun.jpg" alt="autogun">
+        </picture>
       </div>
   </div>
 
