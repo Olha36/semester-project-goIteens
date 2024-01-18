@@ -62,12 +62,18 @@
     }
     .first_picture {
         right: 100%;
-        top: -10px;
-        box-shadow: 150px 25px 90px 80px blue;
+        top: -30px;
+        box-shadow: 150px 25px 90px 100px blue;
     }
     .second_picture {
         left: 40%;
-        top: 50px;
+        top: 0px;
+    }
+    .title__h2 {
+        font-size: 42px;
+    }
+    .about_fundraising__text {
+        font-size: 22px;
     }
 }                                                              
 @media screen and (max-width: 537px) {
@@ -86,7 +92,7 @@
     }
     .first_picture {
         top: -100px;
-        box-shadow: 90px 55px 45px 60px blue;
+        box-shadow: 90px 55px 70px 60px blue;
         right: 50%;
     }
     .second_picture {
