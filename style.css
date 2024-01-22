@@ -122,12 +122,6 @@ input {
     }
 }
 
-@media screen and (max-width: 1142px) {
-    .container_cross {
-        width: 398px;
-    }
-}
-
 @media screen and (max-width: 991px) {
     .adaptive {
         max-width: 840px;
