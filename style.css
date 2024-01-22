@@ -5,6 +5,107 @@
 
 
 /* Юра  */
+@import 'animate.css';
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.justify-content-evenly {
+    justify-content: space-evenly;
+}
+.about_fundraising {
+    background-color: #010632;
+    padding: 160px 0;
+}
+.about_fundraising__text:hover {
+    color: #CCDA15;
+}
+.title__h2 {
+    color: #FFF;
+    font-family: 'Istok Web', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+}
+.about_fundraising__text {
+    width: 414px;
+    height: 233px;
+    color: #FFF;
+    font-family: Jost;
+    font-size: 24px;
+    font-weight: 400;
+}
+.first_picture {
+    position: relative;
+    top: 32px;
+    box-shadow: 150px 25px 125px 100px blue;
+    transition: transform, 10s, ease-in-out;
+}
+.first_picture:hover {
+    transform: scale(1.35);
+}
+.second_picture {
+    position: relative;
+    top: 130px;
+    left: 37%;
+    transition: transform, 10s, ease-in-out;
+}
+.second_picture:hover {
+    transform: scale(1.35);
+}
+@media screen and (max-width: 1047px) {
+    .about_fundraising__text {
+        width: 530px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .about_fundraising {
+        flex-direction: column;
+        align-items: center;
+    }
+    .first_picture {
+        right: 100%;
+        top: -30px;
+        box-shadow: 150px 25px 90px 100px blue;
+    }
+    .second_picture {
+        left: 40%;
+        top: 0px;
+    }
+    .title__h2 {
+        font-size: 42px;
+    }
+    .about_fundraising__text {
+        font-size: 22px;
+    }
+}                                                              
+@media screen and (max-width: 537px) {
+    .about_fundraising {
+        padding: 60px 0;
+    }
+    .about_fundraising__text {
+        width: 195px;
+        font-size: 16px;
+    }
+    .about_fundraising__text__span {
+        display: none;
+    }
+    .title__h2 {
+        font-size: 34px;
+    }
+    .first_picture {
+        top: -100px;
+        box-shadow: 90px 55px 70px 60px blue;
+        right: 50%;
+    }
+    .second_picture {
+        top: -80px;
+    }
+}
 
 
 
