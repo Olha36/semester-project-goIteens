@@ -5,6 +5,7 @@
 }
 
 .container_modal {
+    position: relative;
     display: flex;
     justify-content: space-evenly;
     margin: 0 auto;
@@ -20,13 +21,13 @@
 
 .container_cross {
     content: "";
-    position: relative;
-    top: 0;
+    position: absolute;
+    top: 1%;
     width: 2px;
     height: 22px;
     background-color: black;
-    transform: translate(508px, 4px) rotate(45deg);
-    left: 470px;
+    transform: rotate(45deg);
+    right: 3%;
 }
 
 .container_cross::after {
@@ -141,6 +142,9 @@ input {
 }
 
 @media screen and (max-width: 768px) {
+    .container {
+        max-width: 500px;
+    }
     .adaptive{
         max-width: 570px;
     }
@@ -155,16 +159,20 @@ input {
         border-radius: 15px;
         border: 1px solid black;
         background: #FFF;
-        width: 1050px;
         flex-wrap: wrap;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-
     .container_cross {
-        left: 5px;
+        top: 2%;
+        right: 7%;
     }
+    .support {
+        padding: 0;
+        text-align: center;
+    }
+
 }
 
 @media screen and (max-width: 575px) {
