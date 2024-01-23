@@ -1,0 +1,64 @@
+header {
+    width: 1440px;
+    height: 65px;
+    flex-shrink: 0;
+    background: #010632;;
+}
+.StandWithUkraineerik {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.p1 {
+    width: 169px;
+    height: 29px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Jost;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+}
+.p2 {
+    width: 88px;
+    height: 29px;
+    flex-shrink: 0;
+    color:  #FFF;
+    font-family: Jost;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: norm;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+}
+.p3 {
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Istok Web;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+span:nth-child(1) {
+    color: #0075FF;
+}
+span:nth-child(2) {
+    color: #FFB800;
+}
+.p4 {
+    width: 166px;
+    height: 29px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke-width: 1;
+    -webkit-text-stroke-color: #000;
+    font-family: Jost;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
