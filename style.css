@@ -28,31 +28,25 @@ footer {
 }
 
 .policy {
-    text-align: center;
     padding-top: 70px;
     padding-left: 138px;
 }
 
-.text_policy {
+.text_policy,
+.text2_policy,
+.text3_policy {
     color: #FFF;
     font-family: 'Jost', sans-serif;
     font-size: 24px;
-    width: 106px;
-    height: 35px;
-}
-
-.text2_policy {
-    width: 320px;
-    height: 35px;
-    padding-top: 10px;
-    font-family: 'Jost', sans-serif;
-    font-size: 24px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
 }
 
-.text3_policy {
+ .text2_policy,
+ .text3_policy {
+    padding-top: 10px;
+ }
+
+/* .text3_policy {
     padding-bottom: 10px;
     max-width: 65%;
     padding-top: 10px;
@@ -61,7 +55,7 @@ footer {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-}
+}  */
 
 .socialnetwork {
     display: flex;
@@ -129,5 +123,9 @@ footer {
 @media (max-width: 767px) { }
 
 /* Стилі для дуже малих екранів (дисплей максимум 575рх) */
-@media (max-width: 575px) { }
+@media screen and (max-width: 575px) {
+    .policy {
+        padding-left: 59px;
+    }
+ }
 
