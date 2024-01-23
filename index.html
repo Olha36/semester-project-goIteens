@@ -29,9 +29,16 @@
   <!-- Олег -->
 <section class="soldats">
   <div class="container">
+    
+    
   <div class="img">
-    <img src="Rectangle11.jpg" alt="Rectangle11">
-    <img class="ZSU" src="Rectangle12.jpg" alt="Rectangle12">
+    <picture>
+      <source srcset="./img/1@1x.jpg 1x, ./img/1@1x.jpg 1x" media="(min-width: 1199px)">
+      <source srcset="./img/1@1x.jpg 1x, ./img/1@2x.jpg 2x" media="(min-width: 700px)">
+      <source srcset="./img/1@1x.jpg 1x, ./img/1@3x.jpg 3x" media="(max-width: 699px)">
+      <img class="first_picture" src="./img/1@1x.jpg" alt="Ukrainian-soilders-1">
+    </picture>
+    <img class="ZSU" src="./img/Rectangle12.jpg" alt="Rectangle12">
       </div>
   <div>
   <h1>Про нас</h1>
