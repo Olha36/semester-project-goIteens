@@ -12,3 +12,9 @@
 -padding: 137px 237px 0 800px;,  
 -width: 265px, height: 40px;.
 3. В класі .container додай justify-content: space-evenly;
+*Умнічка!!!*
+
+23.01.2024
+1. В класі .text3_policy додай max-width: 65%; і padding-bottom згідно макету. висоту та ширину забери
+2. В класі .policy додай текст елайн сентер
+*Умнічка!!!*
