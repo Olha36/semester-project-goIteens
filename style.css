@@ -28,6 +28,7 @@ footer {
 }
 
 .policy {
+    text-align: center;
     padding-top: 70px;
     padding-left: 138px;
 }
@@ -52,8 +53,8 @@ footer {
 }
 
 .text3_policy {
-    width: 481px;
-    height: 61px;
+    padding-bottom: 10px;
+    max-width: 65%;
     padding-top: 10px;
     font-family: 'Jost', sans-serif;
     font-size: 24px;
@@ -117,7 +118,12 @@ footer {
 @media (max-width: 1199px) { }
 
 /* Стилі для середніх екранів (дисплей максимум 991рх) */
-@media (max-width: 991px) { }
+@media (max-width: 991px) { 
+    .trips {
+        padding-top: 35px;
+        padding-bottom: 5px;
+    }
+}
 
 /* Стилі для малих екранів (дисплей максимум 767рх) */
 @media (max-width: 767px) { }
