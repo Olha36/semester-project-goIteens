@@ -204,10 +204,10 @@ margin-left: 65px;
 .adaptive{
     display: block;
     width: 1200px;
-}
+} 
 
 .model{
-    display: flex;
+    display: none;
     position: relative;
     width: 1005px;
     height: 598px;
