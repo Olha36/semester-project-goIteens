@@ -15,7 +15,7 @@ const support2 = document.querySelector('.two');
 const cross = document.querySelector('.container_cross')
 
 support2.addEventListener('click', function() {
-    modal2.classList.toggle('active')
+    modal2.classList.add('active')
 })
 
 cross.addEventListener('click', function() {
