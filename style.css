@@ -103,12 +103,12 @@
         font-size: 34px;
     }
     .first_picture {
-        top: -100px;
+        top: -36px;
         box-shadow: 90px 55px 70px 60px blue;
         right: 50%;
     }
     .second_picture {
-        top: -80px;
+        top: -9px;
     }
 }
 
@@ -125,7 +125,6 @@
 .supportforarmy{
     background: #060D49;
     padding-bottom: 65px;
-    position: absolute;
     background-size: cover;
 }
 .supportcards{
@@ -211,7 +210,6 @@ margin-left: 65px;
 
 .model{
     display: none;
-    position: relative;
     width: 1005px;
     height: 598px;
     border-radius: 21px;
@@ -369,6 +367,7 @@ margin-left: 65px;
 }
 @media screen and (max-width: 991px){
     .adaptive{
+        position: relative;
         max-width: 770px;
         height: 800px;
         flex-direction: column;
@@ -379,14 +378,14 @@ margin-left: 65px;
         max-height: 126px;
         border-radius: 9px;
         position: absolute;
-        top: 57%;
+        top: 77%;
     }
     .support{
         max-width: 172px;
         max-height: 48px;  
         border-radius: 15px; 
-        margin-top: 28%;
-        margin-left: 30%;
+        margin-top: 5%;
+        margin-left: 5%;
     }
 }
 @media screen and (max-width: 776px){
@@ -492,7 +491,7 @@ input {
     transform: scale(1);
 }
 
-.support { 
+.support-button { 
     padding: 22px;
 }
 
@@ -534,9 +533,6 @@ input {
 }
 
 @media screen and (max-width: 1199px) {
-    .container {
-        max-width: 990px;
-    }
     
     .forms :nth-child(4) {
         display: block;
@@ -545,6 +541,9 @@ input {
 }
 
 @media screen and (max-width: 991px) {
+    .container {
+        max-width: 840px;
+    }
     .adaptive {
         max-width: 840px;
         flex-direction: column;
@@ -559,7 +558,7 @@ input {
 
 @media screen and (max-width: 768px) {
     .container {
-        max-width: 500px;
+        max-width: 570px;
     }
     .adaptive{
         max-width: 570px;
@@ -593,8 +592,14 @@ input {
 
 @media screen and (max-width: 575px) {
     .adaptive {
-        max-width: 350px;
+        max-width: 390px;
         height: auto;
+    }
+    .container {
+        max-width: 390px;
+    }
+    .supportchild {
+        margin-right: 0;
     }
 }
 
@@ -619,7 +624,7 @@ footer {
     font-weight: 700;
 }
 
-.container {
+.footer-container {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -681,18 +686,18 @@ footer {
     font-size: 24px;
     font-weight: 400;
 }
-
+.trips p {
+    margin-top: 40px;
+}
 .blue {
     color: #0075FF;
     font-family: Istok Web;
-    font-size: 48px;
     font-weight: 700;
 }
 
 .yellow {
     color: #FFB800;
     font-family: Istok Web;
-    font-size: 48px;
     font-weight: 700;
 }
 .yellow-circle {
@@ -711,8 +716,11 @@ footer {
 /* Стилі для середніх екранів (дисплей максимум 991рх) */
 @media (max-width: 991px) { 
     .trips {
-        padding-top: 35px;
-        padding-bottom: 5px;
+        padding-top: 0;
+        padding-bottom: 20px;
+    }
+    .socialnetwork {
+        margin-top: 40px;
     }
 }
 
@@ -723,5 +731,8 @@ footer {
 @media screen and (max-width: 575px) {
     .policy {
         padding-left: 59px;
+    }
+    .h2 {
+        font-size: 36px;
     }
  }
