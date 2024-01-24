@@ -9,16 +9,16 @@ support.addEventListener('click', function() {
 })
 
 const modal2 = document.querySelector('.container');
-console.log(modal2);
 
 const support2 = document.querySelector('.two');
-console.log(support2);
+
+const cross = document.querySelector('.container_cross')
 
 support2.addEventListener('click', function() {
-    modal2.classList.add('active')
+    modal2.classList.toggle('active')
 })
 
-// const actives = document.querySelector('.actives')
-// support2.addEventListener('click', function() {
-//     modal2.classList.add('actives')
-// })
+cross.addEventListener('click', function() {
+    modal2.classList.remove('active')
+})
+

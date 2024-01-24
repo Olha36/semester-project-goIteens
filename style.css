@@ -436,13 +436,14 @@ margin-left: 65px;
     width: 1005px;
 }
 
-.actives {
+.active {
     display: block;
 }
 
 .container_cross {
     content: "";
     position: absolute;
+    cursor: pointer;
     top: 1%;
     width: 2px;
     height: 22px;
@@ -487,11 +488,7 @@ input {
    padding: 40px;
 }
 
-.container_img:hover img {
-    transform: scale(1);
-}
-
-.support { 
+.supporting { 
     padding: 22px;
 }
 
@@ -583,7 +580,7 @@ input {
         top: 2%;
         right: 7%;
     }
-    .support {
+    .supporting {
         padding: 0;
         text-align: center;
     }
@@ -595,10 +592,6 @@ input {
         max-width: 350px;
         height: auto;
     }
-}
-
-.active{
-    display: flex;
 }
 
 /* Ваня  */
