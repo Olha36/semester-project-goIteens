@@ -433,8 +433,13 @@ margin-left: 65px;
 }
 
 .container {
+    display: none;
     position: relative;
     width: 1005px;
+}
+
+.actives {
+    display: block;
 }
 
 .container_cross {
