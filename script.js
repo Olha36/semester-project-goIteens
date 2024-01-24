@@ -7,3 +7,13 @@ const active = document.querySelector('.active')
 support.addEventListener('click', function() {
     modal.classList.add('active')
 })
+
+const modal2 = document.querySelector('.container_modal');
+
+const support2 = document.querySelector('.two');
+console.log(support2);
+
+const active2 = document.querySelector('.active2')
+support2.addEventListener('click' , function() {
+    modal2.classList.add('active2')
+})

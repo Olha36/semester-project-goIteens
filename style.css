@@ -125,13 +125,14 @@
 .supportforarmy{
     background: #060D49;
     padding-bottom: 65px;
-
+    position: absolute;
+    background-size: cover;
 }
 .supportcards{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    position: absolute;
+    position: relative;
 }
 .supportchild{
 background-color: #FFF;
@@ -426,7 +427,7 @@ margin-left: 65px;
 /* Назар */
 .container_modal {
     position: relative;
-    display: flex;
+    display: none;
     justify-content: space-evenly;
     margin: 0 auto;
     border-radius: 15px;
@@ -437,7 +438,9 @@ margin-left: 65px;
     position: relative;
     width: 1005px;
 }
-
+.active2{
+    display: flex;
+}
 .container_cross {
     content: "";
     position: absolute;
