@@ -209,10 +209,10 @@ margin-left: 65px;
 } 
 
 .model{
-    top: 58%;
+    top: 77%;
     left: 23%;
     display: none;
-    position: relative;
+    position: absolute;
     width: 1005px;
     height: 598px;
     border-radius: 21px;
@@ -427,9 +427,9 @@ margin-left: 65px;
 
 /* Назар */
 .container_modal {
-    top: 58%;
-    left: 25%;
-    position: relative;
+    top: 77%;
+    left: 23%;
+    position: absolute;
     display: none;
     justify-content: space-evenly;
     margin: 0 auto;
