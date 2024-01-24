@@ -601,3 +601,127 @@ input {
 
 
 /* Ваня  */
+footer {
+    background: #010632;
+    
+}
+
+.policy {
+    color: #FFF;
+}
+
+.h2 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Istok Web';
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.policy {
+    padding-top: 70px;
+    padding-left: 138px;
+}
+
+.text_policy,
+.text2_policy,
+.text3_policy {
+    color: #FFF;
+    font-family: 'Jost', sans-serif;
+    font-size: 24px;
+}
+
+ .text2_policy,
+ .text3_policy {
+    padding-top: 10px;
+ }
+
+/* .text3_policy {
+    padding-bottom: 10px;
+    max-width: 65%;
+    padding-top: 10px;
+    font-family: 'Jost', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}  */
+
+.socialnetwork {
+    display: flex;
+    align-items: center;
+    
+}
+
+.instagram_socialnetwork {
+    background-repeat: no-repeat;
+
+}
+
+.facebook_socialnetwork {
+    background-repeat: no-repeat;
+}
+
+.twitter_socialnetwork {
+    background-repeat: no-repeat;
+}
+
+.trips {
+    color: #FFF;
+    font-family: 'Jost', sans-serif;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.blue {
+    color: #0075FF;
+    font-family: Istok Web;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.yellow {
+    color: #FFB800;
+    font-family: Istok Web;
+    font-size: 48px;
+    font-weight: 700;
+}
+.yellow-circle {
+    background-color: #FFB800;
+    width: 65px;
+    margin-right: 34.96px;
+    height: 65px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Стилі для великих екранів (дисплей максимум 1199рх) */
+@media (max-width: 1199px) { }
+
+/* Стилі для середніх екранів (дисплей максимум 991рх) */
+@media (max-width: 991px) { 
+    .trips {
+        padding-top: 35px;
+        padding-bottom: 5px;
+    }
+}
+
+/* Стилі для малих екранів (дисплей максимум 767рх) */
+@media (max-width: 767px) { }
+
+/* Стилі для дуже малих екранів (дисплей максимум 575рх) */
+@media screen and (max-width: 575px) {
+    .policy {
+        padding-left: 59px;
+    }
+ }
