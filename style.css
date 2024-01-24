@@ -125,7 +125,6 @@
 .supportforarmy{
     background: #060D49;
     padding-bottom: 65px;
-    position: absolute;
     background-size: cover;
 }
 .supportcards{
@@ -210,6 +209,8 @@ margin-left: 65px;
 } 
 
 .model{
+    top: 58%;
+    left: 23%;
     display: none;
     position: relative;
     width: 1005px;
@@ -426,6 +427,8 @@ margin-left: 65px;
 
 /* Назар */
 .container_modal {
+    top: 58%;
+    left: 25%;
     position: relative;
     display: none;
     justify-content: space-evenly;
