@@ -104,8 +104,7 @@ span:nth-child(2) {
   .menu-item:hover {
     background-color: #CFD8DC;
   }
-   
-   
+
   #menu-toggle{
     opacity: 0;
   }
