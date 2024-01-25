@@ -220,9 +220,9 @@
     border-radius: 21px;
     background-color: rgb(184, 184, 184);
 }
-.active{
+/* .active{
     display: flex;
-}
+} */
 .gasoline{
     animation-duration: 1s;
     animation-name: pinput;
@@ -443,7 +443,7 @@
     position: absolute;
     width: 1005px;
 }
-.active2{
+.active{
     display: flex;
 }
 .container_cross {
@@ -490,7 +490,7 @@ input {
 }
 
 .container_img {
-   padding: 40px;
+   margin: 40px;
 }
 
 .container_img:hover img {
