@@ -356,6 +356,11 @@
     transform: rotate(-45deg);
 }  
 
+@media screen and (max-width: 1342px) {
+    .model {
+        left: 8%;
+    }
+}
 @media screen and (max-width: 1200px){
     .adaptive{
         max-width: 990px;
@@ -369,15 +374,20 @@
         max-width: 208px;
         padding-bottom: 28px;
     }
+    .model {
+        left: 2%;
+    }
 }
 @media screen and (max-width: 991px){
     .adaptive{
-        position: relative;
-        max-width: 770px;
+        position: absolute;
+        left: 8%;
+        top: 118%;
+        max-width: 620px;
         height: 800px;
         flex-direction: column;
     }
-
+    
     .gasoline{
         max-width: 105px;
         max-height: 126px;
@@ -538,7 +548,20 @@ input {
     display: none;
 }
 
+@media screen and (max-width: 1342px) {
+    .container {
+        left: 10%;
+    }
+}
 @media screen and (max-width: 1199px) {
+    .container {
+        left: 5%;
+        max-width: 80%;
+    }
+    .container_modal {
+        flex-direction: column;
+        /* max-width: 80%; */
+    }
     
     .forms :nth-child(4) {
         display: block;
@@ -548,12 +571,12 @@ input {
 
 @media screen and (max-width: 991px) {
     .container {
-        max-width: 840px;
+        left: 2%;
     }
-    .adaptive {
-        max-width: 840px;
+    /* .adaptive {
+        max-width: 748px;
         flex-direction: column;
-    }
+    } */
 
     .join-button {
         max-width: 172px;
@@ -598,11 +621,13 @@ input {
 
 @media screen and (max-width: 575px) {
     .adaptive {
-        max-width: 390px;
+        max-width: 356px;
         height: auto;
+        left: 0;
     }
     .container {
         max-width: 390px;
+        left: 10%;
     }
     .supportchild {
         margin-right: 0;
