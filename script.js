@@ -17,3 +17,10 @@ const active2 = document.querySelector('.active2')
 support2.addEventListener('click' , function() {
     modal2.classList.add('active2')
 })
+
+const closeDagger = document.querySelector('.dagger');
+console.log(support);
+
+closeDagger.addEventListener('click', function() {
+    modal.classList.remove('active')
+})
