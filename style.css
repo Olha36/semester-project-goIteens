@@ -218,11 +218,11 @@
     width: 1005px;
     height: 598px;
     border-radius: 21px;
-    background-color: rgb(184, 184, 184);
+    background-color: rgb(255, 255, 255);
 }
-.active{
+/* .active{
     display: flex;
-}
+} */
 .gasoline{
     animation-duration: 1s;
     animation-name: pinput;
@@ -443,9 +443,7 @@
     position: absolute;
     width: 1005px;
 }
-.active2{
-    display: flex;
-}
+
 .container_cross {
     content: "";
     position: absolute;
@@ -536,6 +534,10 @@ input {
 
 .forms :nth-child(4) {
     display: none;
+}
+
+.active{
+    display: flex;
 }
 
 @media screen and (max-width: 1199px) {
