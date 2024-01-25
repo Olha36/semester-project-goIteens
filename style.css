@@ -134,12 +134,12 @@
     position: relative;
 }
 .supportchild{
-background-color: #FFF;
-width: 365px;  
-text-align: center;
-margin-right: 35px;
-margin-bottom: 35px;
-padding-bottom: 35px;
+    background-color: #FFF;
+    width: 365px;  
+    text-align: center;
+    margin-right: 35px;
+    margin-bottom: 35px;
+    padding-bottom: 35px;
 }
 
 .support2{
@@ -147,13 +147,15 @@ padding-bottom: 35px;
     color: #FFF;
     font-family: Istok Web;
     font-size: 48px;
-text-align: center;
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: 65px;
 }
 .img{
     padding-top: 26px;
 }
 .supportchild button{
-text-align: center;
+    text-align: center;
 }
 .text{
     color: #000;
@@ -163,42 +165,42 @@ text-align: center;
     line-height: normal;
 }
 .text-1{
-color: #000;
-text-align: center;
-font-family: Jost;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    color: #000;
+    text-align: center;
+    font-family: Jost;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 .percent{
-color: #000;
-text-align: center;
-font-family: Jost;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    color: #000;
+    text-align: center;
+    font-family: Jost;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 .supportbutton{
-color: #FFF;
-text-align: center;
-font-family: Jost;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    color: #FFF;
+    text-align: center;
+    font-family: Jost;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 .button{
-display: flex;
-align-items: center;
-justify-content: center;
-border-radius: 15px;
-background: #0057FF;
-width: 235px;
-height: 61px;
-flex-shrink: 0;
-margin-left: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    background: #0057FF;
+    width: 235px;
+    height: 61px;
+    flex-shrink: 0;
+    margin-left: 65px;
 }
 
 
@@ -209,7 +211,10 @@ margin-left: 65px;
 } 
 
 .model{
+    top: 77%;
+    left: 23%;
     display: none;
+    position: absolute;
     width: 1005px;
     height: 598px;
     border-radius: 21px;
@@ -425,7 +430,6 @@ margin-left: 65px;
 
 /* Назар */
 .container_modal {
-    position: relative;
     display: none;
     justify-content: space-evenly;
     margin: 0 auto;
@@ -434,7 +438,9 @@ margin-left: 65px;
     background: #FFF;
 }
 .container {
-    position: relative;
+    top: 77%;
+    left: 23%;
+    position: absolute;
     width: 1005px;
 }
 .active2{
