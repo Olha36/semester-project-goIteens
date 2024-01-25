@@ -11,11 +11,6 @@
 
 /* Юра  */
 @import 'animate.css';
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 .flex {
     display: flex;
     flex-wrap: wrap;
@@ -220,9 +215,6 @@
     border-radius: 21px;
     background-color: rgb(184, 184, 184);
 }
-/* .active{
-    display: flex;
-} */
 .gasoline{
     animation-duration: 1s;
     animation-name: pinput;
@@ -231,12 +223,6 @@
 @keyframes pinput{
   0%{
     transform: scale(-0.5, 1);
-  }
-  50%{
-
-  }
-  100%{
-
   }
 }
 
@@ -280,8 +266,7 @@
 }
 
 .support{
-    margin-left: 43px;
-    margin-top: 64px;
+    margin: 64px 0 0 43px;
     width: 235px;
     height: 61px;
     border-radius: 15px;
@@ -290,9 +275,7 @@
     text-align: center;
     font-family: 'Istok Web', sans-serif;
     font-size: 24px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
     border: none;
 }
 
@@ -318,8 +301,7 @@
 
 
 .gasoline{
-    margin-left: 55px;
-    margin-top: 38px;
+    margin: 38px 0 0 55px;
 }
 
 .dagger{
@@ -487,7 +469,6 @@ label {
     color: #7C7C7C;
     font-family: Roboto;
     font-size: 24px;
-    font-style: normal;
     font-weight: 400;
     padding: 20px;
 }
@@ -519,7 +500,6 @@ input {
     color: #FFF;
     font-family: Roboto;
     font-size: 24px;
-    font-style: normal;
     font-weight: 400;
 }
 
@@ -560,7 +540,6 @@ input {
     }
     .container_modal {
         flex-direction: column;
-        /* max-width: 80%; */
     }
     
     .forms :nth-child(4) {
@@ -573,10 +552,6 @@ input {
     .container {
         left: 2%;
     }
-    /* .adaptive {
-        max-width: 748px;
-        flex-direction: column;
-    } */
 
     .join-button {
         max-width: 172px;
@@ -598,15 +573,10 @@ input {
     }
 
     .container_modal {
-        display: flex;
         margin: 0 auto;
         border-radius: 15px;
         border: 1px solid black;
         background: #FFF;
-        flex-wrap: wrap;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
     }
     .container_cross {
         top: 2%;
@@ -679,33 +649,16 @@ footer {
     padding-top: 10px;
  }
 
-/* .text3_policy {
-    padding-bottom: 10px;
-    max-width: 65%;
-    padding-top: 10px;
-    font-family: 'Jost', sans-serif;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}  */
-
 .socialnetwork {
     display: flex;
     align-items: center;
     
 }
 
-.instagram_socialnetwork {
-    background-repeat: no-repeat;
-
-}
-
-.facebook_socialnetwork {
-    background-repeat: no-repeat;
-}
-
-.twitter_socialnetwork {
+.instagram_socialnetwork,
+.facebook_socialnetwork,
+.twitter_socialnetwork
+ {
     background-repeat: no-repeat;
 }
 
@@ -741,8 +694,6 @@ footer {
     align-items: center;
     justify-content: center;
 }
-/* Стилі для великих екранів (дисплей максимум 1199рх) */
-@media (max-width: 1199px) { }
 
 /* Стилі для середніх екранів (дисплей максимум 991рх) */
 @media (max-width: 991px) { 
@@ -755,8 +706,6 @@ footer {
     }
 }
 
-/* Стилі для малих екранів (дисплей максимум 767рх) */
-@media (max-width: 767px) { }
 
 /* Стилі для дуже малих екранів (дисплей максимум 575рх) */
 @media screen and (max-width: 575px) {
