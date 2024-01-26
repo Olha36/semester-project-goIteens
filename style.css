@@ -124,3 +124,31 @@ span:nth-child(2) {
     visibility: visible;
     left: 0;
   }
+  .burger-menu {
+    display: none;
+  }
+  @media screen and (max-width: 991px) {
+    .burger-menu {
+      display: block;
+      position: absolute;
+      right: 2%;
+      top: 10%;
+    }
+    .p1,
+    .p2,
+    .p4 {
+      display: none;
+    }
+    .p3 {
+      margin-left: 19%;
+    }
+  }
+  @media screen and (max-width: 575px) {
+    .p3 {
+      font-size: 24px;
+    }
+    .burger-menu {
+      right: 3%;
+      top: 5%;
+    }
+  }
