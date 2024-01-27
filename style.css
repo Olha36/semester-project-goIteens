@@ -1,15 +1,12 @@
 .soldats{
     background-color: blue;
-    height: 500px;
-}
-.img{
-    width: 615px;
 }
 .ZSU{
     margin-left: 349px;
 }
 p{
-    
+    font-size: 26px;
+    color: white;
     width: 414px;
 }
 .container{
@@ -20,5 +17,14 @@ img:hover{
     transform: scale(3);
 }
 @media screen and (max-width:1199px) {
-    
+    .container{
+        flex-direction: column;
+    }
+    .ZSU{
+        margin: 0;
+    }
+}
+h1{
+    font-size: 42px;
+    color: white;
 }
