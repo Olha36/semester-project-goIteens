@@ -2,7 +2,9 @@
     background-color: blue;
 }
 .ZSU{
-    margin-left: 349px;
+    position: absolute;
+    top: 11%;
+    left: 41%;
 }
 p{
     font-size: 26px;
@@ -16,15 +18,13 @@ p{
 img:hover{
     transform: scale(3);
 }
-@media screen and (max-width:1199px) {
-    .container{
-        flex-direction: column;
-    }
-    .ZSU{
-        margin: 0;
-    }
-}
 h1{
     font-size: 42px;
     color: white;
+}
+@media screen and (max-width:1199px) {
+    .container{
+        flex-direction: column;
+        align-items: center;
+    }
 }
