@@ -22,7 +22,13 @@
         <div class="img_wrapper">
           <div class="left_item">
             <div class="left_top">
-              <img class="left_top_left" src="./img/Rectangle 32.jpg" alt="#" width="364" />
+              <picture>
+                <source srcset="./img/Rectangle 32.jpg 1x, ./img/Rectangle32.jpg 1x" media="(min-width: 1199px)">
+                <source srcset="./img/Rectangle 32.jpg 1x, ./img/картинкаУФорматі2х.jpg 2x" media="(min-width: 700px)">
+                <source srcset="./img/Rectangle 32.jpg, ./img/картинкаУФорматі3х.jpg 3x" media="(max-width: 699px)">
+                <img class="left_top_left" src="./img/Rectangle 32.jpg" alt="#" />
+              </picture>
+              
               <div class="right_top">
                 <img class="right_top_right" src="./img/Rectangle 36.jpg" alt="#" width="364" />
                 <img class="right_top_right" src="./img/Rectangle 97.jpg" alt="#" width="364" height="129" />
