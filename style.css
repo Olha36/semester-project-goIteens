@@ -114,20 +114,14 @@
 
 /* Настя  */
 .fourth_section {
-    /* width: 100%;
-    padding: 21px 138px 56px;
-    width: 1440px;
-    height: 773px;
-    flex-shrink: 0; */
     background: #010632;
-    /* gap: 36px; */
     margin: 0 auto;
     display: flex;
     align-items: center;
     flex-direction: column;
   }
   
-  h2 {
+  .fourth_section  h2 {
     padding: 0 0 18px;
     max-width: 780px;
     color: #fff;
@@ -139,7 +133,6 @@
     line-height: normal;
     display: block;
     margin: 0 auto;
-  
     animation-duration: 5s;
     animation-name: slidein;
     animation-iteration-count: infinite;
@@ -224,9 +217,6 @@
   }
   
   .right_item {
-    /* width: 364px;
-    height: 549px;
-    flex-shrink: 0; */
     opacity: 0.5;
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
   }
