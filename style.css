@@ -1,10 +1,12 @@
 .soldats{
     background-color: blue;
+    height: 500px;
+}
+.img{
+    width: 615px;
 }
 .ZSU{
-    position: absolute;
-    top: 11%;
-    left: 41%;
+    margin-left: 349px;
 }
 p{
     font-size: 26px;
