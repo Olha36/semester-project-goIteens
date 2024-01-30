@@ -113,7 +113,124 @@
 
 
 /* Настя  */
-
+.fourth_section {
+    /* width: 100%;
+    padding: 21px 138px 56px;
+    width: 1440px;
+    height: 773px;
+    flex-shrink: 0; */
+    background: #010632;
+    /* gap: 36px; */
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  h2 {
+    padding: 0 0 18px;
+    max-width: 780px;
+    color: #fff;
+    text-align: center;
+    font-family: Istok Web;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: block;
+    margin: 0 auto;
+  
+    animation-duration: 5s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 100%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  
+  .img_wrapper {
+    margin: 0 auto;
+    padding: 0 0 56px;
+    display: flex;
+    gap: 36px;
+    flex-wrap: wrap;
+  }
+  
+  .left_item {
+    display: flex;
+    gap: 21px;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  .left_top {
+    display: flex;
+    gap: 36px;
+    flex-wrap: wrap;
+  }
+  
+  .left_top_left {
+    width: 364px;
+    height: 264px;
+    flex-shrink: 0;
+    opacity: 0.5;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    gap: 21px;
+  }
+  
+  .right_top {
+    display: flex;
+    gap: 21px;
+    flex-direction: column;
+  }
+  
+  .right_top_right {
+    display: flex;
+    gap: 21px;
+    width: 364px;
+    height: 129px;
+    flex-shrink: 0;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  }
+  
+  .left_bottom {
+    display: flex;
+    gap: 36px;
+    flex-wrap: wrap;
+  }
+  
+  .left_botton_left {
+    width: 264px;
+    height: 261px;
+    flex-shrink: 0;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  }
+  
+  .right_botton {
+    width: 465px;
+    height: 264px;
+    flex-shrink: 0;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  }
+  
+  .right_item {
+    /* width: 364px;
+    height: 549px;
+    flex-shrink: 0; */
+    opacity: 0.5;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  }
+  
 
 
 /* Даня Щербаков */
